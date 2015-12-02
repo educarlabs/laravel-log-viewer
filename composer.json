@@ -1,12 +1,12 @@
 {
-    "name": "rap2hpoutre/laravel-log-viewer",
-    "description": "A Laravel log reader",
+    "name": "educarlabs/laravel-log-viewer",
+    "description": "Visualizador de logs de laravel. Forked from https://github.com/rap2hpoutre/laravel-log-viewer",
     "license": "MIT",
     "keywords": ["log", "log-reader", "log-viewer", "logging"],
     "authors": [
         {
-            "name": "rap2hpoutre",
-            "email": "raphael@ornikar.com"
+            "name": "mciceri",
+            "email": "mciceri@educ.gov.ar"
         }
     ],
     "require": {
