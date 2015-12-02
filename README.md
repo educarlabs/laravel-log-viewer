@@ -1,5 +1,7 @@
-Laravel 5 log viewer
+educarlabs - Laravel 5 log viewer
 ======================
+
+Es un fork de  rap2hpoutre/laravel-log-viewer. Es exactamete igual salvo que se elimina la posibilidad de eliminar logs.
 
 [![Packagist](https://img.shields.io/packagist/v/rap2hpoutre/laravel-log-viewer.svg)]()
 [![Packagist](https://img.shields.io/packagist/l/rap2hpoutre/laravel-log-viewer.svg)](https://packagist.org/packages/rap2hpoutre/laravel-log-viewer) [![Packagist](https://img.shields.io/packagist/dm/rap2hpoutre/laravel-log-viewer.svg)]() [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/rap2hpoutre/laravel-log-viewer/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/rap2hpoutre/laravel-log-viewer/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/rap2hpoutre/laravel-log-viewer/badges/build.png?b=master)](https://scrutinizer-ci.com/g/rap2hpoutre/laravel-log-viewer/build-status/master)
@@ -19,7 +21,7 @@ Install
 -------
 Install via composer
 ```
-composer require rap2hpoutre/laravel-log-viewer
+composer require-dev educarlabs/laravel-log-viewer
 ```
 
 Add Service Provider to `config/app.php` in `providers` section
