@@ -19,14 +19,13 @@ Small log viewer for laravel. Looks like this:
 
 Install
 -------
-Install via composer
+Agregar la entrada al paquete en composer.json
 ```
-composer require-dev educarlabs/laravel-log-viewer
+"educarlabs/laravel-log-viewer": "dev-master"
 ```
 
 Agregar la entrada al repositorio en composer.json
 ```
-,
     "repositories": [{
 		"type": "vcs",
 		"url": "https://github.com/educarlabs/laravel-log-viewer.git"
