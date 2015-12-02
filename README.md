@@ -24,6 +24,15 @@ Install via composer
 composer require-dev educarlabs/laravel-log-viewer
 ```
 
+Agregar la entrada al repositorio en composer.json
+```
+,
+    "repositories": [{
+		"type": "vcs",
+		"url": "https://github.com/educarlabs/laravel-log-viewer.git"
+    }],
+```
+
 Add Service Provider to `config/app.php` in `providers` section
 ```php
 Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
